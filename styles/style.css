@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(203, 165, 238);
+}
+
+.main_nav {
+     background-color: rgb(255, 255, 255);
+     padding: 20px;
+     width: 100%;
+     max-width: 1000px;
+     margin: 0 auto;
+     border-radius: 30px;
+}
+
+.main_list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list_item a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+     width: 100%;
+     max-width: 1000px;
+     margin: 0 auto;
+     border-radius: 30px;
+     margin-top: 20px;
+}
+
+.main_title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+
+.list_title {
+    text-align: center;
+    font-size: 25px;   
+}
+
+.my_list {
+    list-style-type: circle;
+}
+
+.main_img {
+    display: block;
+    width: 50%;
+    max-width:500 px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    width: 23%;
+    margin: 0;
+    border: 1px solid rgb(255, 251, 251);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gallery-title {
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+
+textarea {
+    grid-column: 1/-1;
+}
+
+form button {
+    grid-column: 1/-1 ;
+}

@@ -93,3 +93,22 @@ textarea {
 form button {
     grid-column: 1/-1 ;
 }
+
+.list_item:hover{
+    transition:0.5 ;
+    transform: scale(1.5);
+}
+
+.main_img {
+    transition: 0.5;
+}
+
+.main_img:hover {
+    transition: 0.5;
+    transform: scale(1.5);
+}
+
+.main_img:hover {
+    filter:hue-rotate(50%)
+}
+
